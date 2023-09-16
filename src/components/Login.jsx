@@ -22,7 +22,7 @@ const Login = () => {
            className='text-black font-semibold mb-8 lg:mb-8 hover:scale-110'>
             <div className='flex items-center '>
              <span><BsApple className=''/></span>
-              <button className='btn lg:btn_3 btn_3_5  border-0 -mx-10 font-bold shadow-md  text-black font-primary'>
+              <button className='lg:btn lg:btn_3 px-12 py-4 rounded-2xl border-0 -mx-10 font-bold shadow-md  text-black font-primary'>
                Sign in with Apple
               </button>
            </div>
@@ -31,8 +31,8 @@ const Login = () => {
          <Link to='/login' 
            className='text-black font-semibold mb-8 lg:mb-8 hover:scale-110'>
             <div className='flex items-center '>
-             <span><img src={google} alt='google' className='w-8 h-8'/></span>
-              <button className='btn lg:btn_3 btn_3_5 border-0 -mx-10 font-bold shadow-md  text-black font-primary'>
+             <span><img src={google} alt='google' className='w-6 h-6'/></span>
+              <button className='lg:btn lg:btn_3 px-12 py-4 rounded-2xl border-0 -mx-10 font-bold shadow-md  text-black font-primary'>
                Sign in with Google
               </button>
            </div>

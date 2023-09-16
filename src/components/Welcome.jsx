@@ -26,7 +26,7 @@ const Welcome = () => {
           </button>
         </Link>
          <Link to='/login' className='text-secondary font-semibold mb-8 lg:mb-12'>
-           <button className='btn btn_3 border-0 shadow-md hover:text-black/75 font-primary'>Login</button>
+           <button className='lg:btn lg:btn_3 px-32 py-3 rounded-3xl border-0 shadow-md hover:text-black/75 font-primary hover:shadow-2xl'>Login</button>
          </Link>
         <div className='flex space-x-3 font-primary mb-4 lg:mb-0'>
             <p className='text-gray-500'>New around here?</p>

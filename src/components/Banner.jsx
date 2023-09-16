@@ -15,14 +15,14 @@ const Banner = () => {
         </div>
           {/*text &  image*/}
        <div className='container flex flex-col lg:flex-row justify-between items-center w-full px-6'>
-       <div className='pl-6 lg:-mx-[2rem]'>
+       <div className=''>
          <h2 className=' font-tertiary font-bold text-4xl px-8 lg:text-6xl lg:w-[38rem] w-[28rem] mb-6'>A massive library of free 3D  <span className='text-secondary'>shapes</span></h2>
          <p className='font-primary mb-10 px-8'>Lorem ipsum is placeholder text commonly used in the
             graphic, print, and publishing industries</p>
   {/* input button and socials */}
      <div className='flex items-center mb-24 px-4 pl-12'>
         <input type='email'  
-          className='rounded-3xl lg:w-[28rem] w-[16rem] p-3 border-0 placeholder:text-gray-500/60 placeholder:text-sm outline-1 outline-secondary -mx-4 shadow-md hover:shadow-2xl shadow-slate-400/40'
+          className='rounded-3xl lg:w-[28rem] w-[14rem] p-3 border-0 placeholder:text-gray-500/60 placeholder:text-sm outline-1 outline-secondary  shadow-md hover:shadow-2xl shadow-slate-400/40'
           placeholder='Your email address here'
            />
            <div className='lg:-mx-[7rem] -mx-8'>
