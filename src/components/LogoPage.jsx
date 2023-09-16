@@ -5,10 +5,10 @@ import Logo from "../assets/logo1.png"
 
 const LogoPage = () => {
   return (
-    <div className='bg-primary min-h-screen overflow-y-hidden'>
+    <div className='bg-primary min-h-screen overflow-hidden'>
       <div className='container mx-auto'>
         <div className='flex lg:mx-[72rem] mx-[22rem] py-6'>
-           <Link to='/welcome'
+           <Link to='/signin'
              spy={'false'}
             smooth={"true"}
             className=''>

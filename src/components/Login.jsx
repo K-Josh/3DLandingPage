@@ -45,10 +45,11 @@ const Login = () => {
             <img src={bridge} alt='design' className='fixed rotate-45 opacity-80 blur-xl lg:mx-[0rem] lg:-mt-6 px-[2rem] lg:w-[24rem] -mx-[24rem] ' />
           </div>
             <div className={`${bigScreen ? "" : <WorkEmail />}`}></div>
-         <div>
+         <div className='flex items-center flex-col'>
       <h4 className='text-secondary/75 lg:mt-32 cursor-default  px-[14rem] whitespace-nowrap '>
         <p className='mt-8 lg:-mx-[68rem] lg:mb-8'>or get a <Link to="/work_mail" className='text-black font-semibold'>Link</Link> emailed to you</p>
         </h4>
+        <Link to='/banner' className='text-sm font-primary'>Visit our main page</Link>
          </div>
         </div>
     

@@ -7,7 +7,6 @@ import shadow from "../assets/shadow.png"
 
 const SignIn = () => {
   return (
-    <div>
         <div className='mx-auto min-h-screen welcome overflow-hidden'>
            <div className=''>
                 <div className='flex lg:justify-between items-center '>
@@ -31,6 +30,7 @@ const SignIn = () => {
         <div className='flex space-x-3 font-primary mb-4 lg:mb-0'>
             <p className='text-gray-500'>New around here?</p>
             <Link to='register' className='text-secondary cursor-pointer'>Sign In</Link>
+            
          </div>
 
           <div className='border-b border-gray-500 p-8 rounded-md'></div>  
@@ -39,7 +39,6 @@ const SignIn = () => {
         <img src={line} alt='' className='-my-[4rem] lg:-mt-[8rem] lg:h-[26rem] h-[16rem]'/>
            </div>
            
-    </div>
   )
 }
 
