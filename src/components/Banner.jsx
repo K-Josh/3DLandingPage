@@ -16,13 +16,13 @@ const Banner = () => {
           {/*text &  image*/}
        <div className='container flex flex-col lg:flex-row justify-between items-center w-full '>
        <div className='-mx-6 lg:mx-0'>
-         <h2 className=' font-tertiary font-bold text-xl px-24 lg:text-6xl lg:w-[38rem] w-[24rem] mb-6'>A massive library of free 3D  <span className='text-secondary'>shapes</span></h2>
-         <p className='font-primary w-[32rem] mb-10 px-24'>Lorem ipsum is placeholder text commonly used in the
+         <h2 className=' font-tertiary font-bold text-xl px-32 lg:px-4  lg:text-6xl lg:w-[38rem] w-[28rem] mb-6'>A massive library of free 3D  <span className='text-secondary'>shapes</span></h2>
+         <p className='font-primary w-[32rem] mb-10 px-32 lg:px-4'>Lorem ipsum is placeholder text commonly used in the
             graphic, print, and publishing industries</p>
   {/* input button and socials */}
-     <div className='flex items-center mb-24 px-24'>
+     <div className='flex items-center mb-24 px-32 lg:px-4'>
         <input type='email'  
-          className='rounded-3xl lg:w-[32rem] w-[12rem] p-3 border-0 placeholder:text-gray-500/60 placeholder:text-sm outline-1 outline-secondary  shadow-md hover:shadow-2xl shadow-slate-400/40'
+          className='rounded-3xl lg:w-[28rem] w-[12rem] p-3 border-0 placeholder:text-gray-500/60 placeholder:text-sm outline-1 outline-secondary  shadow-md hover:shadow-2xl shadow-slate-400/40'
           placeholder='Your email address here'
            />
            <div className='lg:-mx-[8rem] -mx-8 '>
@@ -32,7 +32,7 @@ const Banner = () => {
            </div>
        </div>
         {/* socials */}
-        <div className='flex space-x-3 items-center mb-8 px-28'>
+        <div className='flex space-x-3 items-center mb-8 px-28 lg:px-4'>
             <div className='bg-secondary p-2 rounded-full'><FaFacebookF className='text-white'/></div>
             <div className='bg-secondary p-2 rounded-full'><PiTwitterLogo className='text-white'/></div>
             <div className='bg-secondary p-2 rounded-full'><PiInstagramLogoLight className='text-white'/></div>
