@@ -14,18 +14,18 @@ const Banner = () => {
           <Navbar/>
         </div>
           {/*text &  image*/}
-       <div className='container flex flex-col lg:flex-row justify-between items-center w-full px-6'>
-       <div className=''>
+       <div className='container flex flex-col lg:flex-row justify-between items-center w-full '>
+       <div className='-mx-6 lg:mx-0'>
          <h2 className=' font-tertiary font-bold text-4xl px-8 lg:text-6xl lg:w-[38rem] w-[28rem] mb-6'>A massive library of free 3D  <span className='text-secondary'>shapes</span></h2>
          <p className='font-primary mb-10 px-8'>Lorem ipsum is placeholder text commonly used in the
             graphic, print, and publishing industries</p>
   {/* input button and socials */}
      <div className='flex items-center mb-24 px-4 pl-12'>
         <input type='email'  
-          className='rounded-3xl lg:w-[28rem] w-[14rem] p-3 border-0 placeholder:text-gray-500/60 placeholder:text-sm outline-1 outline-secondary  shadow-md hover:shadow-2xl shadow-slate-400/40'
+          className='rounded-3xl lg:w-[32rem] w-[14rem] p-3 border-0 placeholder:text-gray-500/60 placeholder:text-sm outline-1 outline-secondary  shadow-md hover:shadow-2xl shadow-slate-400/40'
           placeholder='Your email address here'
            />
-           <div className='lg:-mx-[7rem] -mx-8'>
+           <div className='lg:-mx-[8rem] -mx-8'>
              <button type='submit' className='lg:bg-gradient-to-r lg:from-[#EC74E7] lg:to-[#8468F5] lg:rounded-3xl lg:bg-secondary lg:p-2 p-3 bg-primary rounded-bl-3xl rounded-tr-3xl text-white font-primary flex items-center hover:scale-110'>Download
              <PiTelegramLogoFill className='text-white' />
            </button>
