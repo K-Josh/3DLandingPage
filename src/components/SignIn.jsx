@@ -16,8 +16,8 @@ const SignIn = () => {
                 </div>
             </div>
       {/* login  */}
-        <div className='flex flex-col items-center justify-center flex-1 mt-40 lg:-mt-4'>
-           <div className='flex items-center justify-center -mt-20 lg:-mt-[12rem] font-bold  mb-12 lg:mb-28'>
+        <div className='flex flex-col items-center justify-center flex-1 mt-24 lg:-mt-4'>
+           <div className='flex items-center justify-center -mt-20 lg:-mt-[12rem] font-bold mb-8 lg:mb-28'>
              <h1 className='text-3xl text-secondary font-primary'>Hi There!</h1>
             </div>
         <Link to=''>
@@ -36,7 +36,7 @@ const SignIn = () => {
           <div className='border-b border-gray-500 p-8 rounded-md'></div>  
      </div>
         {/* image */}
-        <img src={line} alt='' className='-my-[4rem] lg:-mt-[8rem] lg:h-[26rem] h-[16rem]'/>
+        <img src={line} alt='' className='-my-[4rem] lg:-mt-[8rem] lg:h-[26rem] h-[22rem]'/>
            </div>
            
   )
