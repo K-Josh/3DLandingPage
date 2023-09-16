@@ -32,7 +32,7 @@ const Banner = () => {
            </div>
        </div>
         {/* socials */}
-        <div className='flex space-x-3 items-center mb-8 px-28 lg:px-4'>
+        <div className='flex space-x-3 items-center mb-8 px-32 lg:px-4'>
             <div className='bg-secondary p-2 rounded-full'><FaFacebookF className='text-white'/></div>
             <div className='bg-secondary p-2 rounded-full'><PiTwitterLogo className='text-white'/></div>
             <div className='bg-secondary p-2 rounded-full'><PiInstagramLogoLight className='text-white'/></div>

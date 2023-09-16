@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import bridge from "../assets/bridge.png";
 import shadow from "../assets/shadow.png";
 import line from "../assets/line2.png";
 import { Link } from 'react-router-dom';
 import {BsApple} from 'react-icons/bs';
 import google from "../assets/googleIcon.png";
+import WorkEmail from './WorkEmail';
 
 const Login = () => {
+  const [bigScreen, setBigScren] = useState(false);
   return (
     <div className='mx-auto welcome overflow-x-hidden' id='login'>
       <div className='mx-auto h-screen w-screen'>
@@ -42,36 +44,14 @@ const Login = () => {
           <div>
             <img src={bridge} alt='design' className='fixed rotate-45 opacity-80 blur-xl lg:mx-[0rem] lg:-mt-6 px-[2rem] lg:w-[24rem] -mx-[24rem] ' />
           </div>
-          <div>
-
-          </div>
+            <div className={`${bigScreen ? "" : <WorkEmail />}`}></div>
          <div>
       <h4 className='text-secondary/75 lg:mt-32 cursor-default  px-[14rem] whitespace-nowrap '>
-        <p className='mt-8 lg:-mx-[68rem] lg:mb-8'>or get a link emailed to you</p>
+        <p className='mt-8 lg:-mx-[68rem] lg:mb-8'>or get a <Link to="/work_mail" className='text-black font-semibold'>Link</Link> emailed to you</p>
         </h4>
          </div>
         </div>
-     {/* work-email and button and shdow*/}
-            <div className='lg:mt-6 mt-8 flex flex-col lg:mb-20 lg:space-y-8 space-y-3 items-center'>
-              <input
-                type='email' 
-                className='px-6 -mt-6 rounded-2xl p-3 border-0 -mx-10 font-bold shadow-md outline-1 outline-primary  text-black placeholder:text-gray-500/75 font-primary hover:shadow-lg w-[16rem] lg:w-[24rem]'
-                placeholder='work email address'
-              />
-              <div>
-              <button 
-                type='submit' 
-                className='btn lg:btn_2 btn_3_5  bg-secondary border-0 -mx-10 font-bold   text-white font-primary hover:text-black '>
-               Email me a sign up link
-              </button>
-              </div>
-              <div className='lg:mb-6'>
-              <img src={bridge} alt='design' className='fixed rotate-45 opacity-80 blur-xl lg:mx-[20rem] mx-[8rem] lg:mt-6 px-[8rem] lg:w-[24rem]' />
-          </div>
-
-          <Link to='/banner' className='text-secondary'>To main page </Link>
-           </div>
-
+    
      {/*Terms and conditions */}
       <div className='text-center font-secondary mt-12 lg:-mt-2'>
         <h3 className='text-gray-600/70'>You are completely safe</h3>

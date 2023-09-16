@@ -5,7 +5,7 @@ import bridge from "../assets/bridge.png";
 import line from "../assets/line.png";
 import shadow from "../assets/shadow.png"
 
-const Welcome = () => {
+const SignIn = () => {
   return (
     <div>
         <div className='mx-auto min-h-screen welcome overflow-hidden'>
@@ -43,4 +43,4 @@ const Welcome = () => {
   )
 }
 
-export default Welcome
+export default SignIn
