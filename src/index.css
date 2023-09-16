@@ -1,0 +1,66 @@
+@import  "tailwindcss/base";
+@import  "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* buttons */
+.btn {
+  border-radius: 25px;
+  padding-left: 6rem;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 6rem;
+  align-items: center;
+}
+.btn_1 {
+    background: rgb(147,68,221);
+    background: linear-gradient(180deg, rgba(147,68,221,1) 42%, rgb(253, 188, 191) 100%);
+}
+.btn_2 {
+  padding-left: 4rem;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 4rem;
+}
+.btn_3 {
+  padding-left: 6rem;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 6rem;
+}
+.btn_4 {
+  padding-left: 1rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 1rem;
+  background: rgb(147,68,221);
+    background: linear-gradient(180deg, rgba(147,68,221,1) 42%, rgb(253, 188, 191) 100%);
+}
+
+/* button hovers */
+.btn_1:hover {
+  background: rgb(253, 188, 191);
+  background: linear-gradient(10deg,  rgba(147,68,221,1) 42%, rgb(253, 188, 191) 100%);
+}
+.btn_2:hover {
+  background: rgb(253, 188, 191);
+}
+.btn_4:hover {
+  background: rgb(253, 188, 191);
+  background: linear-gradient(45deg,  rgba(147,68,221,1) 42%, rgb(253, 188, 191) 100%);
+}
+
+.welcome {
+  background: linear-gradient(180deg,  rgb(248, 230, 230) 100%, rgb(253, 188, 191) 100%, rgb(250, 219, 219) 100%);
+}
+.banner {
+  background-image: url('./assets/Strip-Patterns2.png');
+  height: 12rem;
+  background: linear-gradient(65deg, (#FFFFFF) 100%, (#8468F5) 100%, (#FEEAEA) 100%),;
+  /* background: linear-gradient(180deg,  rgb(248, 230, 230) 100%, rgb(253, 188, 191) 100%, rgb(250, 219, 219) 100%); */
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
