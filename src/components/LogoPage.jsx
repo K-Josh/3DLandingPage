@@ -7,7 +7,7 @@ const LogoPage = () => {
   return (
     <div className='bg-primary min-h-screen overflow-y-hidden'>
       <div className='container mx-auto'>
-        <div className='flex lg:mx-[72rem] mx-[28rem] py-6'>
+        <div className='flex lg:mx-[72rem] mx-[22rem] py-6'>
            <Link to='/welcome'
              spy={'false'}
             smooth={"true"}

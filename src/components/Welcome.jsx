@@ -11,17 +11,17 @@ const Welcome = () => {
         <div className='mx-auto min-h-screen welcome overflow-hidden'>
            <div className=''>
                 <div className='flex lg:justify-between items-center '>
-                    <img src={cup} alt='cup' className='lg:h-[28rem] '/>
+                    <img src={cup} alt='cup' className='lg:h-[28rem] h-[14rem]'/>
                     <img src={shadow} alt='shadow' className='lg:h-[28rem] -mt-36 '/>
-                   <img src={bridge} alt='cup' className='lg:h-[28rem] w-[22rem] lg:mx-0 md:-mt-[24rem]'/>
+                   <img src={bridge} alt='cup' className='lg:h-[28rem] w-[24rem] h-[9rem] lg:mx-0 lg:-mt-[24rem] '/>
                 </div>
             </div>
       {/* login  */}
-        <div className='flex flex-col items-center justify-center flex-1'>
+        <div className='flex flex-col items-center justify-center flex-1 mt-40 lg:-mt-4'>
            <div className='flex items-center justify-center -mt-20 lg:-mt-[12rem] font-bold  mb-12 lg:mb-28'>
              <h1 className='text-3xl text-secondary font-primary'>Hi There!</h1>
             </div>
-        <Link to='/login'>
+        <Link to=''>
           <button type='submit' className='btn btn_1 mb-6 lg:mb-12 font-primary'>Get Started
           </button>
         </Link>
@@ -36,7 +36,7 @@ const Welcome = () => {
           <div className='border-b border-gray-500 p-8 rounded-md'></div>  
      </div>
         {/* image */}
-        <img src={line} alt='' className='-my-[4rem] lg:-mt-[8rem] lg:h-[26rem]'/>
+        <img src={line} alt='' className='-my-[4rem] lg:-mt-[8rem] lg:h-[26rem] h-[16rem]'/>
            </div>
            
     </div>

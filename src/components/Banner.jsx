@@ -14,15 +14,15 @@ const Banner = () => {
           <Navbar/>
         </div>
           {/*text &  image*/}
-       <div className='container flex flex-col lg:flex-row justify-between items-center w-full px-10'>
-       <div className=''>
-         <h2 className=' font-tertiary font-bold text-4xl px-8 lg:text-6xl lg:w-[38rem] mb-6'>A massive library of free 3D  <span className='text-secondary'>shapes</span></h2>
+       <div className='container flex flex-col lg:flex-row justify-between items-center w-full px-6'>
+       <div className='pl-6 lg:-mx-[2rem]'>
+         <h2 className=' font-tertiary font-bold text-4xl px-8 lg:text-6xl lg:w-[38rem] w-[28rem] mb-6'>A massive library of free 3D  <span className='text-secondary'>shapes</span></h2>
          <p className='font-primary mb-10 px-8'>Lorem ipsum is placeholder text commonly used in the
             graphic, print, and publishing industries</p>
   {/* input button and socials */}
-     <div className='flex items-center mb-24 px-4'>
+     <div className='flex items-center mb-24 px-4 pl-12'>
         <input type='email'  
-          className='rounded-3xl lg:w-[28rem] w-[20rem] p-3 border-0 placeholder:text-gray-500/60 placeholder:text-sm outline-1 outline-secondary -mx-4 shadow-md hover:shadow-2xl shadow-slate-400/40'
+          className='rounded-3xl lg:w-[28rem] w-[16rem] p-3 border-0 placeholder:text-gray-500/60 placeholder:text-sm outline-1 outline-secondary -mx-4 shadow-md hover:shadow-2xl shadow-slate-400/40'
           placeholder='Your email address here'
            />
            <div className='lg:-mx-[7rem] -mx-8'>
@@ -32,7 +32,7 @@ const Banner = () => {
            </div>
        </div>
         {/* socials */}
-        <div className='flex space-x-3 items-center mb-8 px-9'>
+        <div className='flex space-x-3 items-center mb-8 px-9 pl-10'>
             <div className='bg-secondary p-2 rounded-full'><FaFacebookF className='text-white'/></div>
             <div className='bg-secondary p-2 rounded-full'><PiTwitterLogo className='text-white'/></div>
             <div className='bg-secondary p-2 rounded-full'><PiInstagramLogoLight className='text-white'/></div>
@@ -41,7 +41,7 @@ const Banner = () => {
            </div>
          </div>
           
-        <img src={shapes} alt='' className='lg:mx-[10rem] hover:scale-110'/>
+        <img src={shapes} alt='' className='lg:-mx-[4rem] hover:scale-110 lg:w-[46rem]'/>
        </div>
     </div>
   )
