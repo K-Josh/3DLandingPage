@@ -7,7 +7,7 @@ const WorkEmail = () => {
     <div className='banner bg-cover bg-no-repeat h-screen bg-tertiary mx-auto lg:h-[42rem] py-[20rem] overflow-x-hidden overflow-y-hidden' id='work_mail'>
         <div className='container -mt-[8rem] lg:-mt-[14rem]' >
              {/* work-email and button and shdow*/}
-             <div className='lg:mt-6 mt-2 flex flex-col lg:mb-20 lg:space-y-8 space-y-3 items-center border lg:mx-[28rem] -mx-10 p-12 w-[18rem] lg:w-[28rem]'>
+             <div className='lg:mt-6 mt-2 flex flex-col lg:mb-20 lg:space-y-8 space-y-3 items-center border p-12 w-[18rem] lg:w-[28rem]'>
                 <h1 className='text-2xl font-secondary text-secondary/100 mb-6 whitespace-nowrap'>Your work email</h1>
               <input
                 type='email' 
